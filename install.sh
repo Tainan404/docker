@@ -238,8 +238,8 @@ HERE
     TURN_XML=$SERVLET_DIR/WEB-INF/classes/spring/turn-stun-servers.xml
   else
     # 2.0
-    echo "é a versão 2.2"
-    SERVLET_DIR=/var/lib/tomcat7/webapps/bigbluebutton
+    echo "é a versão 2.0"
+    SERVLET_DIR=/var/lib/tomcat8/webapps/bigbluebutton
     TURN_XML=$SERVLET_DIR/WEB-INF/spring/turn-stun-servers.xml
   fi
 
